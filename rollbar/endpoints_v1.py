@@ -37,7 +37,7 @@ mapping_table = {
     'list_items': {
         'method': 'GET',
         'path': '/items/',
-        'valid_params': ['page'],
+        'valid_params': ['assigned_user','environment','framework','ids','level','page','query','status'],
     },
 
     'get_item_by_counter': {
